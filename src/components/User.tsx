@@ -33,7 +33,7 @@ const User = ({
                 <p>{following}</p>
             </div>
         </div>
-        <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
+        <Link to={`https://github.com/${login}`}>Ver melhores projetos</Link>
     </div>
   )
 }
